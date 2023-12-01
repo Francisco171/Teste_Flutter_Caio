@@ -8,6 +8,8 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _selectedItemIndex = 2;
+  bool _showPieChart = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -182,7 +184,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                       buildCategoryCard(Icons.fastfood, "Food", 120, 20),
                       buildCategoryCard(Icons.flash_on, "Utilities", 430, 17),
-                      buildCategoryCard(Icons.fastfood, "Food", 120, 20),
+                      buildCategoryCard(Icons.card_travel, "Carfixed", 240, 20),
                     ],
                   ),
                 ),
